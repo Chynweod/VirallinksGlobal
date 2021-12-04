@@ -3625,3 +3625,12 @@ li.setup-process-item:not(:last-child):before {
     color: var(--bs-white);
     border-color: var(--bs-primary);
 }
+
+@keyframes rightToLeft {
+    from{
+        transform: translateX(100%);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
